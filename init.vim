@@ -20,7 +20,6 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'https://github.com/tpope/vim-sensible'
 Plug 'https://github.com/rafi/awesome-vim-colorschemes'
-Plug 'morhetz/gruvbox'
 Plug 'https://github.com/vim-airline/vim-airline' " Status bar
 Plug 'vim-airline/vim-airline-themes'
 Plug 'nvim-treesitter/nvim-treesitter'
@@ -38,6 +37,7 @@ Plug 'https://github.com/junegunn/limelight.vim'
 Plug 'https://github.com/ayu-theme/ayu-vim'
 Plug 'https://github.com/mzlogin/vim-markdown-toc'
 Plug 'https://github.com/machakann/vim-highlightedyank'
+Plug 'https://github.com/plasticboy/vim-markdown'
 
 call plug#end()
 " Color schemes
@@ -53,7 +53,7 @@ nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 
-map <F9> :Goyo 120x50 <bar> <CR>
+map <F9> :Goyo <bar> <CR>
 
 let g:pencil#wrapModeDefault = 'soft'   " default is 'hard'
 let g:pencil#joinspaces = 0     " 0=one_space (def), 1=two_spaces
